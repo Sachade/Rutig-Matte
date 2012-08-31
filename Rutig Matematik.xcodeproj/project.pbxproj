@@ -13,6 +13,8 @@
 		D9485D0815ED56F000A24A59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9485D0615ED56F000A24A59 /* InfoPlist.strings */; };
 		D9485D0A15ED56F000A24A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9485D0915ED56F000A24A59 /* main.m */; };
 		D9485D0E15ED56F000A24A59 /* MathAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9485D0D15ED56F000A24A59 /* MathAppDelegate.m */; };
+		D9485D1915ED5F7B00A24A59 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9485D1815ED5F7B00A24A59 /* Storyboard.storyboard */; };
+		D951487F15EE284F006834C1 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D951487E15EE284F006834C1 /* StartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D9485D0B15ED56F000A24A59 /* Rutig Matematik-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rutig Matematik-Prefix.pch"; sourceTree = "<group>"; };
 		D9485D0C15ED56F000A24A59 /* MathAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathAppDelegate.h; sourceTree = "<group>"; };
 		D9485D0D15ED56F000A24A59 /* MathAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathAppDelegate.m; sourceTree = "<group>"; };
+		D9485D1815ED5F7B00A24A59 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D951487D15EE284F006834C1 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		D951487E15EE284F006834C1 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 				D9485D0C15ED56F000A24A59 /* MathAppDelegate.h */,
 				D9485D0D15ED56F000A24A59 /* MathAppDelegate.m */,
 				D9485D0415ED56F000A24A59 /* Supporting Files */,
+				D9485D1815ED5F7B00A24A59 /* Storyboard.storyboard */,
+				D951487D15EE284F006834C1 /* StartViewController.h */,
+				D951487E15EE284F006834C1 /* StartViewController.m */,
 			);
 			path = "Rutig Matematik";
 			sourceTree = "<group>";
@@ -143,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9485D0815ED56F000A24A59 /* InfoPlist.strings in Resources */,
+				D9485D1915ED5F7B00A24A59 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +164,7 @@
 			files = (
 				D9485D0A15ED56F000A24A59 /* main.m in Sources */,
 				D9485D0E15ED56F000A24A59 /* MathAppDelegate.m in Sources */,
+				D951487F15EE284F006834C1 /* StartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +274,7 @@
 				D9485D1315ED56F000A24A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
